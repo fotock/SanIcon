@@ -5,6 +5,7 @@ Selected Icon font with IonIcon, Font Awesome, Entypo for Andriod.
 
 ## Getting Started
 A. Copy SanIcon into your XCode project.
+
 B. Info.plist Settings. Add "Fonts provided by application" item by clicking on the "+" icon, then set "Item 0" with value "sanicon.ttf".
 
 ## Sample Code
@@ -14,15 +15,13 @@ B. Info.plist Settings. Add "Fonts provided by application" item by clicking on 
 ```objective-c
 #import "SanIcon.h"
 
-...
-
 UILabel *label = [[UILabel alloc] init];
 label.text = [NSString sanicon:SIClock];
 label.font = [UIFont saniconFontOfSize:20.f];
 ```
 Also work with `UIButton`, ...
 
-#### Use ionicons with SILabel
+#### Use ionicons with `SILabel`
 
 ```objective-c
 #import "SILabel.h"
