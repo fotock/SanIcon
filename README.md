@@ -1,5 +1,5 @@
 # SanIcon
-Selected Icon font with IonIcon, Font Awesome, Entypo for Andriod.
+Selected Icon font with IonIcon, Font Awesome, Entypo.
 
 ![](thumb.png)
 
