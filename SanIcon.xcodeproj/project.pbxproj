@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D949EFDF1ACE6BC00046CF7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D949EFDE1ACE6BC00046CF7E /* main.m */; };
+		D949EFE21ACE6BC00046CF7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D949EFE11ACE6BC00046CF7E /* AppDelegate.m */; };
+		D949EFE51ACE6BC00046CF7E /* SanIcon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D949EFE31ACE6BC00046CF7E /* SanIcon.xcdatamodeld */; };
+		D949EFE81ACE6BC00046CF7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D949EFE71ACE6BC00046CF7E /* ViewController.m */; };
+		D949EFEB1ACE6BC00046CF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D949EFE91ACE6BC00046CF7E /* Main.storyboard */; };
+		D949EFED1ACE6BC00046CF7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D949EFEC1ACE6BC00046CF7E /* Images.xcassets */; };
+		D949EFF01ACE6BC00046CF7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D949EFEE1ACE6BC00046CF7E /* LaunchScreen.xib */; };
+		D949EFFC1ACE6BC00046CF7E /* SanIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D949EFFB1ACE6BC00046CF7E /* SanIconTests.m */; };
+		D949F00A1ACE71300046CF7E /* SanIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = D949F0091ACE71300046CF7E /* SanIcon.m */; };
+		D9F033EC1AD3913100B1A8B0 /* sanicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9F033EB1AD3913100B1A8B0 /* sanicon.ttf */; };
+		D9F033EF1AD3DF0C00B1A8B0 /* SILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F033EE1AD3DF0C00B1A8B0 /* SILabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D949EFF61ACE6BC00046CF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D949EFD11ACE6BC00046CF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D949EFD81ACE6BC00046CF7E;
+			remoteInfo = SanIcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D949EFD91ACE6BC00046CF7E /* SanIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D949EFDD1ACE6BC00046CF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D949EFDE1ACE6BC00046CF7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D949EFE01ACE6BC00046CF7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D949EFE11ACE6BC00046CF7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D949EFE41ACE6BC00046CF7E /* SanIcon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SanIcon.xcdatamodel; sourceTree = "<group>"; };
+		D949EFE61ACE6BC00046CF7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D949EFE71ACE6BC00046CF7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D949EFEA1ACE6BC00046CF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D949EFEC1ACE6BC00046CF7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D949EFEF1ACE6BC00046CF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D949EFF51ACE6BC00046CF7E /* SanIconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanIconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D949EFFA1ACE6BC00046CF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D949EFFB1ACE6BC00046CF7E /* SanIconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanIconTests.m; sourceTree = "<group>"; };
+		D949F0081ACE71300046CF7E /* SanIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanIcon.h; sourceTree = "<group>"; };
+		D949F0091ACE71300046CF7E /* SanIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanIcon.m; sourceTree = "<group>"; };
+		D9F033EB1AD3913100B1A8B0 /* sanicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sanicon.ttf; sourceTree = "<group>"; };
+		D9F033ED1AD3DF0C00B1A8B0 /* SILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILabel.h; sourceTree = "<group>"; };
+		D9F033EE1AD3DF0C00B1A8B0 /* SILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D949EFD61ACE6BC00046CF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D949EFF21ACE6BC00046CF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D949EFD01ACE6BC00046CF7E = {
+			isa = PBXGroup;
+			children = (
+				D949EFDB1ACE6BC00046CF7E /* SanIcon */,
+				D949EFF81ACE6BC00046CF7E /* SanIconTests */,
+				D949EFDA1ACE6BC00046CF7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D949EFDA1ACE6BC00046CF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D949EFD91ACE6BC00046CF7E /* SanIcon.app */,
+				D949EFF51ACE6BC00046CF7E /* SanIconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D949EFDB1ACE6BC00046CF7E /* SanIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D949F0051ACE6C5D0046CF7E /* SanIcon */,
+				D949EFE01ACE6BC00046CF7E /* AppDelegate.h */,
+				D949EFE11ACE6BC00046CF7E /* AppDelegate.m */,
+				D949EFE61ACE6BC00046CF7E /* ViewController.h */,
+				D949EFE71ACE6BC00046CF7E /* ViewController.m */,
+				D949EFE91ACE6BC00046CF7E /* Main.storyboard */,
+				D949EFEC1ACE6BC00046CF7E /* Images.xcassets */,
+				D949EFEE1ACE6BC00046CF7E /* LaunchScreen.xib */,
+				D949EFE31ACE6BC00046CF7E /* SanIcon.xcdatamodeld */,
+				D949EFDC1ACE6BC00046CF7E /* Supporting Files */,
+			);
+			path = SanIcon;
+			sourceTree = "<group>";
+		};
+		D949EFDC1ACE6BC00046CF7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D949EFDD1ACE6BC00046CF7E /* Info.plist */,
+				D949EFDE1ACE6BC00046CF7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D949EFF81ACE6BC00046CF7E /* SanIconTests */ = {
+			isa = PBXGroup;
+			children = (
+				D949EFFB1ACE6BC00046CF7E /* SanIconTests.m */,
+				D949EFF91ACE6BC00046CF7E /* Supporting Files */,
+			);
+			path = SanIconTests;
+			sourceTree = "<group>";
+		};
+		D949EFF91ACE6BC00046CF7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D949EFFA1ACE6BC00046CF7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D949F0051ACE6C5D0046CF7E /* SanIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D9F033EB1AD3913100B1A8B0 /* sanicon.ttf */,
+				D949F0081ACE71300046CF7E /* SanIcon.h */,
+				D949F0091ACE71300046CF7E /* SanIcon.m */,
+				D9F033ED1AD3DF0C00B1A8B0 /* SILabel.h */,
+				D9F033EE1AD3DF0C00B1A8B0 /* SILabel.m */,
+			);
+			path = SanIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D949EFD81ACE6BC00046CF7E /* SanIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D949EFFF1ACE6BC00046CF7E /* Build configuration list for PBXNativeTarget "SanIcon" */;
+			buildPhases = (
+				D949EFD51ACE6BC00046CF7E /* Sources */,
+				D949EFD61ACE6BC00046CF7E /* Frameworks */,
+				D949EFD71ACE6BC00046CF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanIcon;
+			productName = SanIcon;
+			productReference = D949EFD91ACE6BC00046CF7E /* SanIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D949EFF41ACE6BC00046CF7E /* SanIconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D949F0021ACE6BC00046CF7E /* Build configuration list for PBXNativeTarget "SanIconTests" */;
+			buildPhases = (
+				D949EFF11ACE6BC00046CF7E /* Sources */,
+				D949EFF21ACE6BC00046CF7E /* Frameworks */,
+				D949EFF31ACE6BC00046CF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D949EFF71ACE6BC00046CF7E /* PBXTargetDependency */,
+			);
+			name = SanIconTests;
+			productName = SanIconTests;
+			productReference = D949EFF51ACE6BC00046CF7E /* SanIconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D949EFD11ACE6BC00046CF7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sanfriend Co, Ltd.";
+				TargetAttributes = {
+					D949EFD81ACE6BC00046CF7E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D949EFF41ACE6BC00046CF7E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D949EFD81ACE6BC00046CF7E;
+					};
+				};
+			};
+			buildConfigurationList = D949EFD41ACE6BC00046CF7E /* Build configuration list for PBXProject "SanIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D949EFD01ACE6BC00046CF7E;
+			productRefGroup = D949EFDA1ACE6BC00046CF7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D949EFD81ACE6BC00046CF7E /* SanIcon */,
+				D949EFF41ACE6BC00046CF7E /* SanIconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D949EFD71ACE6BC00046CF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949EFEB1ACE6BC00046CF7E /* Main.storyboard in Resources */,
+				D949EFF01ACE6BC00046CF7E /* LaunchScreen.xib in Resources */,
+				D9F033EC1AD3913100B1A8B0 /* sanicon.ttf in Resources */,
+				D949EFED1ACE6BC00046CF7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D949EFF31ACE6BC00046CF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D949EFD51ACE6BC00046CF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F033EF1AD3DF0C00B1A8B0 /* SILabel.m in Sources */,
+				D949EFE21ACE6BC00046CF7E /* AppDelegate.m in Sources */,
+				D949EFDF1ACE6BC00046CF7E /* main.m in Sources */,
+				D949EFE81ACE6BC00046CF7E /* ViewController.m in Sources */,
+				D949EFE51ACE6BC00046CF7E /* SanIcon.xcdatamodeld in Sources */,
+				D949F00A1ACE71300046CF7E /* SanIcon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D949EFF11ACE6BC00046CF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949EFFC1ACE6BC00046CF7E /* SanIconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D949EFF71ACE6BC00046CF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D949EFD81ACE6BC00046CF7E /* SanIcon */;
+			targetProxy = D949EFF61ACE6BC00046CF7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D949EFE91ACE6BC00046CF7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D949EFEA1ACE6BC00046CF7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D949EFEE1ACE6BC00046CF7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D949EFEF1ACE6BC00046CF7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D949EFFD1ACE6BC00046CF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D949EFFE1ACE6BC00046CF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D949F0001ACE6BC00046CF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanIcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D949F0011ACE6BC00046CF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SanIcon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D949F0031ACE6BC00046CF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SanIconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanIcon.app/SanIcon";
+			};
+			name = Debug;
+		};
+		D949F0041ACE6BC00046CF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SanIconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanIcon.app/SanIcon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D949EFD41ACE6BC00046CF7E /* Build configuration list for PBXProject "SanIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D949EFFD1ACE6BC00046CF7E /* Debug */,
+				D949EFFE1ACE6BC00046CF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D949EFFF1ACE6BC00046CF7E /* Build configuration list for PBXNativeTarget "SanIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D949F0001ACE6BC00046CF7E /* Debug */,
+				D949F0011ACE6BC00046CF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D949F0021ACE6BC00046CF7E /* Build configuration list for PBXNativeTarget "SanIconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D949F0031ACE6BC00046CF7E /* Debug */,
+				D949F0041ACE6BC00046CF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D949EFE31ACE6BC00046CF7E /* SanIcon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D949EFE41ACE6BC00046CF7E /* SanIcon.xcdatamodel */,
+			);
+			currentVersion = D949EFE41ACE6BC00046CF7E /* SanIcon.xcdatamodel */;
+			path = SanIcon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D949EFD11ACE6BC00046CF7E /* Project object */;
+}
