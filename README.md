@@ -28,7 +28,6 @@ Also work with `UIButton`, ...
 
 SILabel *label = [[SILabel alloc] init];
 label.text = @"Albums";
-label.font = [UIFont systemFontOfSize:20.f];
 label.iconName = SIAlbums;
 label.iconColor = 0xffaa99ff;
 label.iconSize = 22.f;
