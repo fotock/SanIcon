@@ -27,8 +27,6 @@ Also work with `UIButton`, ...
 ```objective-c
 #import "SILabel.h"
 
-...
-
 SILabel *label = [[SILabel alloc] init];
 label.text = @"Albums";
 label.font = [UIFont systemFontOfSize:20.f];
