@@ -35,9 +35,9 @@
         return [super drawTextInRect:UIEdgeInsetsInsetRect(rect, self.insets)];
     }
 
-    [super drawTextInRect:UIEdgeInsetsInsetRect(rect, UIEdgeInsetsMake(self.insets.top, self.font.pointSize * 1.2+self.iconPadding, self.insets.bottom, self.insets.right))];
-
     CGFloat iconSize = self.iconSize > 0 ? self.iconSize : self.font.pointSize;
+
+    [super drawTextInRect:UIEdgeInsetsInsetRect(rect, UIEdgeInsetsMake(self.insets.top, iconSize * 1.2+self.iconPadding, self.insets.bottom, self.insets.right))];
 
     UILabel *icon = [[UILabel alloc] initWithFrame:CGRectMake(self.insets.left, 0, iconSize, iconSize)];
     icon.text = [NSString sanicon:(SanIcon)self.iconName];
