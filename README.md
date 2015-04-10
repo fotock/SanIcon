@@ -29,9 +29,9 @@ Also work with `UIButton`, ...
 SILabel *label = [[SILabel alloc] init];
 label.text = @"Albums";
 label.iconName = SIAlbums;
-label.iconColor = 0xffaa99ff;
-label.iconSize = 22.f;
-label.iconPadding = 5.f;
+//label.iconColor = 0xffaa99ff;
+//label.iconSize = 22.f;
+//label.iconPadding = 5.f;
 ```
 
 ## Reference
