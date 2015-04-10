@@ -1,16 +1,16 @@
 # SanIcon
-Selected Icon font with IonIcon, Font Awesome, Entypo.
+Selected icon font from IonIcon, Font Awesome, Entypo... In Objective-C.
 
 ![](thumb.png)
 
 ## Getting Started
-A. Copy SanIcon into your XCode project.
+A. Copy SanIcon into your project.
 
 B. Info.plist Settings. Add "Fonts provided by application" item by clicking on the "+" icon, then set "Item 0" with value "sanicon.ttf".
 
 ## Sample Code
 
-#### Use ionicons with `UILabel`:
+#### Use `SanIcon` with `UILabel`:
 
 ```objective-c
 #import "SanIcon.h"
@@ -21,7 +21,7 @@ label.font = [UIFont saniconFontOfSize:20.f];
 ```
 Also work with `UIButton`, ...
 
-#### Use ionicons with `SILabel`
+#### Use `SanIcon` with `SILabel`
 
 ```objective-c
 #import "SILabel.h"
